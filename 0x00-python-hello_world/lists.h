@@ -1,4 +1,4 @@
-#ifendif LISTS_H
+#ifndef LISTS_H
 #define LISTS_H
 
 #include <stdio.h>
@@ -8,10 +8,11 @@
 /////////////The Singly Linked List/////////////////
 /**
  * struct listint_s - singly linked list
- * @n: the integer
- * @next: pointer to the next node
- * Desc: The singly linked list node structure
+ * @n: integer
+ * @next: points to the next node
  * 
+ * Description: the singly linked list node structure
+ * for 0x00. Python project
  */
 
 typedef struct listint_s
