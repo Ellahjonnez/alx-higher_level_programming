@@ -1,18 +1,18 @@
 About this project: 0x00. Python - Hello, World
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+/////////////////////////Project Resources////////////////////////////
 
 Resources for the project
 
-0. (The Python tutorial)[https://intranet.alxswe.com/rltoken/JsFCs_NBzMAR7-XPAZ9BoA]
-1. (Whetting Your Appetite)[https://intranet.alxswe.com/rltoken/kifRlLG2iMX5AZiW8lrCMg]
-2. (Using the Python Interpreter
-3. An Informal Introduction to Python)[https://intranet.alxswe.com/rltoken/bVps0ZPWq7qVZ7vc-eJGTw]
-4. (How To Use String Formatters in Python 3)[https://intranet.alxswe.com/rltoken/szBsJ-Qyig_RrImN7RGlOg]
-5. (Learn to Program)[https://intranet.alxswe.com/rltoken/szBsJ-Qyig_RrImN7RGlOg]
-6. (Pycodestyle – Style Guide for Python Code)[https://intranet.alxswe.com/rltoken/tgYt-0zVy1T4sDlE9ohxnA]
+0. [The Python tutorial](https://intranet.alxswe.com/rltoken/JsFCs_NBzMAR7-XPAZ9BoA)
+1. [Whetting Your Appetite](https://intranet.alxswe.com/rltoken/kifRlLG2iMX5AZiW8lrCMg)
+2. [Using the Python Interpreter](https://intranet.alxswe.com/rltoken/RVpfAuagCo9SdfYeoHd6jg)
+3. [An Informal Introduction to Python](https://intranet.alxswe.com/rltoken/bVps0ZPWq7qVZ7vc-eJGTw)
+4. [How To Use String Formatters in Python 3](https://intranet.alxswe.com/rltoken/szBsJ-Qyig_RrImN7RGlOg)
+5. [Learn to Program](https://intranet.alxswe.com/rltoken/szBsJ-Qyig_RrImN7RGlOg)
+6. [Pycodestyle – Style Guide for Python Code](https://intranet.alxswe.com/rltoken/tgYt-0zVy1T4sDlE9ohxnA)
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+/////////////////////////Learning Objectives////////////////////////////
 
 Learning Objectives
 To be able to explain to anyone, without the help of Google:
@@ -29,7 +29,7 @@ The following:
 8. What are indexing and slicing in Python
 9. What is the official Python coding style and how to check your code with pycodestyle
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+/////////////////////////Python Scripts////////////////////////////
 
 Requirements for:
 
@@ -44,7 +44,7 @@ Python Scripts
 7. All your files must be executable
 8. The length of your files will be tested using wc
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+/////////////////////////Shell Scripts////////////////////////////
 
 Shell Scripts
 0. Allowed editors: vi, vim, emacs
@@ -54,7 +54,7 @@ Shell Scripts
 4. The first line of all your files should be exactly #!/bin/bash
 5. All your files must be executable
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+/////////////////////////C Scripts////////////////////////////
 
 C Scripts
 0. Allowed editors: vi, vim, emacs
@@ -69,7 +69,7 @@ C Scripts
 10. All your header files should be include guarded
 
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+/////////////////////////Project Tasks////////////////////////////
 
 Project Tasks
 0. Run Python file
