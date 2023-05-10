@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-for i in range(ord('z'), ord('a') - 1, -1):
-    if i % 2 == 1:
-        print(chr(i).upper(), end='')
+result = ''
+for i in range(122, 96, -1):
+    if i % 2 == 0:
+        result += chr(i)
     else:
-        print(chr(i).lower(), end='')
+        result += chr(i).upper()
+
+print(result, end='')
