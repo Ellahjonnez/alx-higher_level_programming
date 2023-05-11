@@ -11,7 +11,7 @@ if __name__ == "__main__":
     add_result = add(a, b)
     print("{:d} + {:d} = {:d}".format(a, b, add_result), end='\n')
 
-    #Subtraction
+    # Subtraction
     sub_result = sub(a, b)
     print("{:d} - {:d} = {:d}".format(a, b, sub_result), end='\n')
 
