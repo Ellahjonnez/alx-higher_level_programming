@@ -13,12 +13,12 @@ if __name__ == "__main__":
 
     #Subtraction
     sub_result = sub(a, b)
-    print("{:d} + {:d} = {:d}".format(a, b, sub_result), end='\n')
+    print("{:d} - {:d} = {:d}".format(a, b, sub_result), end='\n')
 
     # Multiplication
     mult_result = mul(a, b)
-    print("{:d} + {:d} = {:d}".format(a, b, mult_result), end='\n')
+    print("{:d} * {:d} = {:d}".format(a, b, mult_result), end='\n')
 
     # Divsion
-    div_result = mul(a, b)
-    print("{:d} + {:d} = {:d}".format(a, b, div_result), end='\n')
+    div_result = div(a, b)
+    print("{:d} / {:d} = {:d}".format(a, b, div_result), end='\n')
