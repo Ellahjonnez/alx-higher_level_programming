@@ -2,7 +2,7 @@
 
 if __name__ == "__main__":
     import sys
-    #To prints the result of the addition of all arguments
+    # To prints the result of the addition of all arguments
 
     result = 0
     for i in range(len(sys.argv) - 1):
