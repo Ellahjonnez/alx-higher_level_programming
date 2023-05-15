@@ -1,13 +1,10 @@
 #!/usr/bin/python3
-import sys
-
-def number_of_arguments(args):
-    result = 0
-    for arg in args:
-        result += int(arg)
-    return result
 
 if __name__ == "__main__":
-    counts = sys.argv[1:]
-    total = number_of_arguments(counts)
-    print("{}".format(total))
+    import sys
+    #To prints the result of the addition of all arguments
+
+    result = 0
+    for i in range(len(sys.argv) - 1):
+        result += int(sys.argv[i + 1])
+    print("{}".format(result), end="\n")
