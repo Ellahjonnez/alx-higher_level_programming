@@ -5,6 +5,6 @@ class LockedClass:
 
     def __setattr__(self, attr, value):
         if attr != 'first_name':
-            raise AttributeError
-        ("Cannot create new instance attributes, except 'first_name'")
+            raise AttributeError("Cannot create new instance attributes,"
+                                 "except 'first_name'")
         self.__dict__[attr] = value
