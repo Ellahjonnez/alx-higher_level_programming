@@ -4,6 +4,6 @@
 
 
 class Rectangle:
- 
+
     """ Represents the rectangle class """
     pass
