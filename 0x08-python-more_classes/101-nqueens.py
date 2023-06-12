@@ -2,8 +2,9 @@
 
 import sys
 
+
 def init_board(n):
-    """Initialize an `n`x`n` sized chessboard with 0's."""
+    """To Initialize `n`x`n` sized chessboard with 0's."""
     board = []
     [board.append([]) for i in range(n)]
     [row.append(' ') for i in range(n) for row in board]
@@ -11,14 +12,14 @@ def init_board(n):
 
 
 def board_deepcopy(board):
-    """Return a deepcopy of a chessboard."""
+    """Returns a deepcopy of a chessboard."""
     if isinstance(board, list):
         return list(map(board_deepcopy, board))
     return (board)
 
 
 def get_solution(board):
-    """Return the list of lists representation of a solved chessboard."""
+    """Returns list of lists representation of a solved chessboard."""
     solution = []
     for r in range(len(board)):
         for c in range(len(board)):
@@ -29,13 +30,13 @@ def get_solution(board):
 
 
 def xout(board, row, col):
-    """X out spots on a chessboard.
-    All spots where non-attacking queens can no
+    """X out the spots on a chessboard.
+    All spots where a non-attacking queens can no
     longer be played are X-ed out.
     Args:
-        board (list): The current working chessboard.
-        row (int): The row where a queen was last played.
-        col (int): The column where a queen was last played.
+        board (list): current working chessboard.
+        row (int): row where a queen was last played.
+        col (int): column where a queen was last played.
     """
     # X out all forward spots
     for c in range(col + 1, len(board)):
@@ -78,6 +79,7 @@ def xout(board, row, col):
         board[r][c] = "x"
         c -= 1
 
+
 def recursive_solve(board, row, queens, solutions):
     if queens == len(board):
         solutions.append(get_solution(board))
@@ -92,6 +94,7 @@ def recursive_solve(board, row, queens, solutions):
                                         queens + 1, solutions)
 
     return (solutions)
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
