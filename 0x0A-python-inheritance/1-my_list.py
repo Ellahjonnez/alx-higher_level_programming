@@ -1,16 +1,12 @@
 #!/usr/bin/python3
 
-"""
-A Class MyList that inherits the
-attributes references of class list
-"""
+"""The function for my_list class"""
 
 
 class MyList(list):
-    """
-    The Class that inherits from the list
-    """
+    """ a class MyList that inherits from list"""
+    pass
 
     def print_sorted(self):
-        """ The function that prints the sorted list """
+        """Prints the list in sorted (ascending sort)"""
         print(sorted(self))
