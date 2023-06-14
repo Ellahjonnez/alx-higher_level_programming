@@ -14,11 +14,12 @@ def append_after(filename="", search_string="", new_string=""):
         new_string {str} >> string to insert
     """
 
-    with open(filename, 'r') as file:
+    with open(filename, 'r+') as file:
         lines = file.readlines()
-
-    with open(filename, 'w') as file:
+        new_lines = []
         for line in lines:
-            file.write(line)
+            new_lines.append(line)
             if search_string in line:
-                file.write(new_string + '\n')
+                new_lines.append(new_string)
+        file.seek(0)
+        file.writelines(new_lines)
