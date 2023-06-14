@@ -1,17 +1,20 @@
 #!/usr/bin/python3
 
-"""The Log parsing Module"""
+
+"""
+A script that reads stdin line by line and computes metrics
+"""
 
 import sys
 
 
 def print_stats(status_codes, file_size):
     """
-    A script that reads stdin line by line and computes metrics:
+    prints stats
 
     Arguments:
-        status_codes {dict} >> dictionary of status codes
-        file_size {int} >> file size
+        status_codes {dict} -- [dictionary of status codes]
+        file_size {int} -- [file size]
     """
     print("File size: {}".format(file_size))
     for key, value in sorted(status_codes.items()):
